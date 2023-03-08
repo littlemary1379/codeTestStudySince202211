@@ -36,6 +36,12 @@ public class Main {
             digitInt /= 10;
         }
 
+        String str = "string Stirng";
+        String[] strArray = str.split(" ");
+        for(String strr : strArray) {
+            strr.charAt(0);
+        }
+
         return (x % plusInt == 0);
     }
 }

@@ -1,7 +1,7 @@
 import java.lang.StringBuilder
 
 fun main(args: Array<String>) {
-    println(anotherSolution("try hello world"))
+    println(solution("  tRy hello  WORLD    "))
 }
 
 fun solution(s : String) : String {
