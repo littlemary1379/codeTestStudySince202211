@@ -5,7 +5,7 @@ import java.io.OutputStreamWriter
 
 fun main(args: Array<String>) {
     question10813()
-    
+
 }
 
 fun question10813() {
