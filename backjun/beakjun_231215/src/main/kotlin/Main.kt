@@ -36,5 +36,5 @@ fun question2869() {
 //    }
 //
 //    println(day)
-    
+
 }
