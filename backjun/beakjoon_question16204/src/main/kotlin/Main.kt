@@ -1,7 +1,11 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import kotlin.math.max
+import kotlin.math.min
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main(args: Array<String>) {
+    question16204()
+}
+
+fun question16204() {
+    val card = readln().split(" ").map { it.toInt() }
+    println(min(card[1], card[2]) + card[0] - max(card[1], card[2]))
 }
